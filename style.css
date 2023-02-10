@@ -27,14 +27,13 @@
 .everything {
     color: #eb7b9f;
     background: #fef8fa;
-    font-size: 20px;
+    font-size:1.75vw;
     font-family: Pacifico, cursive;
 }
 
 [class*="col-"] {
     float: left;
-    padding: 30px;
-    background-color:#ffcbe3;
+    padding: 15px;
 }
 
 .row::after {
@@ -43,35 +42,15 @@
     display: table;
 }
 
-/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
-img {
-    max-width: 50%;
-    height: auto;
-}
-
 /** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
 .overflow {
     overflow-x:auto;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    border: 1px solid #f5d6e5;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even){background-color: #f8c0d1}
-  tr:nth-child(odd){background-color: #e7c8eb}
 
 .smalltitle {
     color: #fef8fa;
     background-color: #f8c0d1;
-    font-size: 50px;
+    font-size:3vw;
     text-align: center;
     font-family: Pacifico, cursive;
 }
@@ -79,7 +58,7 @@ table {
 .largetitle {
     color: #fef8fa;
     background-color: #f8c0d1;
-    font-size: 75px;
+    font-size:8vw;
     text-align: center;
     font-family: Pacifico, cursive;
 }
@@ -111,3 +90,62 @@ a:link {
     color: #fef8fa;
   }
 
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f8c0d1;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .about {
+    color: #fef8fa;
+    font-size:1.75vw;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-10%, -10%);
+    text-align: center;
+    padding: 5px;
+  }
+
+  .tech {
+    color: #fef8fa;
+    font-size:1.75vw;
+    font-family: Pacifico, cursive;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-10%, -10%);
+    text-align: center;
+  }
+
+  img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 200px;
+  }
