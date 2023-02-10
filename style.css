@@ -64,10 +64,11 @@
 }
 
 a {
-    font-size: 25px;
+    font-size:3vw;
     text-align: center;
     font-family: Pacifico, cursive;
     text-decoration: none;
+    padding: 3vw;
 }
 
 a:link {
