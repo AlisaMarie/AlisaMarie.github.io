@@ -68,7 +68,7 @@ a {
     text-align: center;
     font-family: Pacifico, cursive;
     text-decoration: none;
-    padding: 3vw;
+    padding: 2vw;
 }
 
 a:link {
@@ -135,10 +135,10 @@ a:link {
 
   .tech {
     color: #fef8fa;
-    font-size:1.75vw;
+    font-size:1.2vw;
     font-family: Pacifico, cursive;
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 15%;
     transform: translate(-10%, -10%);
     text-align: center;
