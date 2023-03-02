@@ -25,15 +25,22 @@
 }
 
 .everything {
-    color: #eb7b9f;
+    color: #e7c8eb;
     background: #fef8fa;
-    font-size:1.75vw;
-    font-family: Pacifico, cursive;
+    font-size:1.5vw;
+    font-family: 'Bree Serif', serif;
+}
+
+.sec {
+  color: #fef8fa;
+  background-color: #f8c0d1;
+  font-size:1.5vw;
+  font-family: 'Bree Serif', serif;
 }
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 25px;
 }
 
 .row::after {
@@ -68,21 +75,30 @@ a {
     text-align: center;
     font-family: Pacifico, cursive;
     text-decoration: none;
-    padding: 2vw;
+    padding: 1.5vw;
+}
+
+.yuppers {
+  font-size:3vw;
+  background-color: #f8c0d1;
+  text-align: center;
+  font-family: Pacifico, cursive;
+  text-decoration: none;
+  padding: 1.5vw;
 }
 
 a:link {
-    color: #e7c8eb;
+    color: #eb7b9f;
   }
   
   /* visited link */
   a:visited {
-    color: #f8c0d1;
+    color: #eb7b9f;;
   }
   
   /* mouse over link */
   a:hover {
-    color: #eb7b9f;
+    color: #e7c8eb;
     font-weight: bold;
   }
   
@@ -98,7 +114,7 @@ a:link {
   
   .image {
     display: block;
-    width: 100%;
+    width: 70%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -123,8 +139,8 @@ a:link {
   
   .about {
     color: #fef8fa;
-    font-size:1.75vw;
-    font-family: Pacifico, cursive;
+    font-size:1.5vw;
+    font-family: 'Bree Serif', serif;
     position: absolute;
     top: 20%;
     left: 15%;
@@ -136,19 +152,12 @@ a:link {
   .tech {
     color: #fef8fa;
     font-size:1.2vw;
-    font-family: Pacifico, cursive;
+    font-family: 'Bree Serif', serif;
     position: absolute;
     top: 80%;
     left: 15%;
     transform: translate(-10%, -10%);
     text-align: center;
-  }
-
-  img.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 200px;
   }
 
   video {
